@@ -21,7 +21,7 @@ To quickly set up and test the Employee Management API, follow these straightfor
 ### Prerequisites
 - Database Installation: Install and import the provided "user.db" into your database management system.
 - Maven Project Creation: Create a new Maven project to manage dependencies and build the project.
-- Project Setup Clone the Repository: git clone https://github.com/your-username/employee-management-api.git
+- Project Setup Clone the Repository: git clone https://github.com/GlennWilliam/RESTful-API-for-User-Account-.git 
 - Include the POM.xml: Incorporate the provided pom.xml file into your Maven project. This file specifies project dependencies and configurations.
 - Maven Build: Install Maven and execute the build process to generate the WAR (Web Application Archive) file for deployment. 
 
