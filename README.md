@@ -1,7 +1,7 @@
 # RESTful-API-for-User-Account-
 
 ## Overview
-This repository contains a RESTful API system designed for user account management, offering seamless CRUD (Create, Read, Update, Delete) operations on user records. The API follows industry best practices, adheres to RESTful principles, and ensures proper HTTP status codes. It facilitates interaction with user data through standard HTTP methods such as PUT, POST, DELETE, and GET, delivering JSON responses for enhanced flexibility.
+This repository contains a RESTful API system designed for user account management, offering seamless CRUD (Create, Read, Update, Delete) operations on user records. The API follows industry best practices, adheres to RESTful principles, and ensures proper HTTP status codes. It facilitates interaction with user data through standard HTTP methods such as PUT, POST, DELETE, and GET, delivering JSON responses for enhanced flexibility. FOr quick overview, I have provided a screeshot on the overview.zip
 
 ## Features
 - CRUD Operations: Perform Create, Read, Update, and Delete operations on user records effortlessly using standard HTTP methods.
@@ -23,7 +23,7 @@ To quickly set up and test the Employee Management API, follow these straightfor
 - Maven Project Creation: Create a new Maven project to manage dependencies and build the project.
 - Project Setup Clone the Repository: git clone https://github.com/your-username/employee-management-api.git
 - Include the POM.xml: Incorporate the provided pom.xml file into your Maven project. This file specifies project dependencies and configurations.
-- Maven Build: Install Maven and execute the build process to generate the WAR (Web Application Archive) file for deployment. Copy code: mvn clean install
+- Maven Build: Install Maven and execute the build process to generate the WAR (Web Application Archive) file for deployment. 
 
 ### Server Configuration
 Web Server Initialization: Initialize a web server, such as XAMPP, to host your application.
@@ -32,3 +32,4 @@ Ensure Server Components are Running: Confirm that "Apache," your database, and 
 
 ### Testing
 Testing with Postman: Utilize Postman to send HTTP requests and test the functionality of your API.
+Note: Besides accepting JSON as input, this project also leverages query parameters for enhanced flexibility in data interaction. Explore and customize your requests using both JSON payloads and query parameters. It takes query for GET and DELETE, JSON for POST and PUT. 
